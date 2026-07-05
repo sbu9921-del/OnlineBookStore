@@ -45,7 +45,7 @@ COPY Books(Book_ID, Title, Author, Genre, Published_Year, Price, Stock)
 FROM 'D:\SQL NOTES\PROJECT\Books.csv'
 CSV HEADER;
 
---INSERT DATa\A INTO Customers TABLE USING CODE
+--INSERT DATA INTO Customers TABLE USING CODE
 
 COPY Customers(Customer_ID, Name, Email, Phone, City, Country)
 FROM 'D:\SQL NOTES\PROJECT\Customers.csv'
